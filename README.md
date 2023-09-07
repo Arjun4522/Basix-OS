@@ -9,7 +9,7 @@ Basix is a KVM based minimal linux operating system, built on linux kernel versi
 3. `git clone https://github.com/Arjun4522/Basix-OS/`
 4. `cd Basix-OS`
 5. `gzip -d Basix.iso.gz`
-6. `chmpd +x Basix.iso`
+6. `chmod +x Basix.iso`
 7. `qemu-system-x86_64 -cdrom Basix.iso`
 
 
