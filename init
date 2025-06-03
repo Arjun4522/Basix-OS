@@ -1,0 +1,12 @@
+#!/bin/sh
+
+# Mount essential filesystems
+mount -t proc proc /proc
+mount -t sysfs sysfs /sys
+
+# Create device nodes if needed (e.g., for a TTY)
+# Example: Create /dev/ttyS0
+# mknod /dev/ttyS0 c 4 64
+
+# Launch a shell (bash in this example)
+exec /bin/sh
